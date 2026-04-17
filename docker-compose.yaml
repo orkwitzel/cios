@@ -1,13 +1,13 @@
 services:
   frontend:
-    image: ghcr.io/thedokt0r/chatroom-frontend:latest
+    image: ghcr.io/orkwitzel/chatroom-frontend:latest
     container_name: cios-frontend
     restart: unless-stopped
     ports:
       - 3000:80
 
   backend:
-    image: ghcr.io/thedokt0r/chatroom-backend:latest
+    image: ghcr.io/orkwitzel/chatroom-backend:latest
     container_name: cios-backend
     restart: unless-stopped
     ports:

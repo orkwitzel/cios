@@ -44,7 +44,7 @@
   <button
     class="icon-button"
     onclick={() =>
-      redirectToURL("https://github.com/TheDokT0r/chatroom", {
+      redirectToURL("https://github.com/orkwitzel/chatroom", {
         pageReload: true,
       })}
   >
